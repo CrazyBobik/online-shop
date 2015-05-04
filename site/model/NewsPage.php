@@ -9,11 +9,13 @@ class NewsPage extends BasePage{
                 $one_news = file_get_contents("../../resources/tpl/body/news/oneNews.tpl");
                 $one_news = str_replace(
                     array(
+                        "{id}",
                         "{Title}",
                         "{img}",
                         "{text}"
                     ),
                     array(
+                        $array[$i]['id'],
                         $array[$i]['title'],
                         $array[$i]['img'],
                         $array[$i]['text']

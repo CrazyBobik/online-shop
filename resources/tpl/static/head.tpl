@@ -9,25 +9,16 @@
 
 </head>
 <body>
-<div class="container" id="body_container">
-    <div id="head">
-        <img src="../../resources/images/head.jpg">
-        <a href="/pages/changeLang/lang.php?lang=en">
-            <img src="../../resources/images/lang/en.png" style="position:
-            relative; bottom: 30px;
-            left: 20px">
-        </a>
-        <a href="/pages/changeLang/lang.php?lang=ua">
-            <img src="../../resources/images/lang/ua.png" style="position:
-            relative; bottom: 30px;
-            left: 20px">
-        </a>
-        <a href="/pages/changeLang/lang.php?lang=ru">
-            <img src="../../resources/images/lang/ru.png" style="position:
-            relative; bottom: 30px;
-            left: 20px">
-        </a>
-
-    </div>
-
-
+<div class="container">
+        <div id="head">
+            <img src="../../resources/images/head.jpg">
+            <a href="/pages/changeLang/lang.php?lang=en" style="position:
+                relative; bottom: 30px;
+                left: 20px"><img src="../../resources/images/lang/en.png"></a>
+            <a href="/pages/changeLang/lang.php?lang=ua" style="position:
+                relative; bottom: 30px;
+                left: 20px"><img src="../../resources/images/lang/ua.png"></a>
+            <a href="/pages/changeLang/lang.php?lang=ru" style="position:
+                relative; bottom: 30px;
+                left: 20px"><img src="../../resources/images/lang/ru.png"></a>
+        </div>

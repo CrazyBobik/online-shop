@@ -11,6 +11,10 @@
     #body{
         width: 624px;
     }
+
+    #footer{
+        height: 107px;
+    }
 }
 @media (max-width: 1024px) {
     #head {
@@ -28,6 +32,53 @@
     }
 }
 
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    min-height: 100%;
+}
+
+/*Футер*/
+#buffer {
+    clear: both;
+    position: relative;
+    bottom: 0;
+    height: 110px;
+}
+
+#footer {
+    position: relative;
+    min-height: 107px;
+    margin-top: -107px;
+}
+
+#footer {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    #footer {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    #footer {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    #footer {
+        width: 1170px;
+    }
+}
+/*Конец футера*/
 
 body {
     background: url("/resources/images/bg/bg_body.jpg");
